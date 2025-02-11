@@ -65,8 +65,6 @@ const Calender = () => {
         </button>
       </div>
 
-      
-
       {viewMode === "calendar" ? (
         <FullCalendar
           plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
